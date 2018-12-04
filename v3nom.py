@@ -14,8 +14,8 @@ def animation():
                                                                         
                                      
                                      ******automate modified tool installer******
-                                      ~greetz to:-Luc!f@r,rooting-tom,blackc0bra,mr.proton,mr.m4d,4rsh dork 
-                                               and all indian hackers                                                        
+                                      ~greetz to:-Luc!f@r,rooting-tom,blackc0bra,mr.proton,mr.m4d,4r5h d0rk 
+                                               and all indian hackers                                                       
 """)
  
 def install():
