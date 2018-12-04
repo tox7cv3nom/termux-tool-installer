@@ -25,6 +25,7 @@ def install():
   print "2.beelogger ~python keylogger"
   print "3.metasploit."
   print "4.darkfly."
+  print "5.kali nethunter."
  
 def load():
   tool = input('enter the tool:')
@@ -138,6 +139,29 @@ def load():
    print("darkfly successfully installed")
    install()
    load()
+  if tool == 5:
+   os.system("clear")
+   print("""
+          /$$        /$$ /$$                             /$$     /$$                             /$$                        
+| $$                | $$|__/                            | $$    | $$                            | $$                        
+| $$   /$$  /$$$$$$ | $$ /$$       /$$$$$$$   /$$$$$$  /$$$$$$  | $$$$$$$  /$$   /$$ /$$$$$$$  /$$$$$$    /$$$$$$   /$$$$$$ 
+| $$  /$$/ |____  $$| $$| $$      | $$__  $$ /$$__  $$|_  $$_/  | $$__  $$| $$  | $$| $$__  $$|_  $$_/   /$$__  $$ /$$__  $$
+| $$$$$$/   /$$$$$$$| $$| $$      | $$  \ $$| $$$$$$$$  | $$    | $$  \ $$| $$  | $$| $$  \ $$  | $$    | $$$$$$$$| $$  \__/
+| $$_  $$  /$$__  $$| $$| $$      | $$  | $$| $$_____/  | $$ /$$| $$  | $$| $$  | $$| $$  | $$  | $$ /$$| $$_____/| $$      
+| $$ \  $$|  $$$$$$$| $$| $$      | $$  | $$|  $$$$$$$  |  $$$$/| $$  | $$|  $$$$$$/| $$  | $$  |  $$$$/|  $$$$$$$| $$      
+|__/  \__/ \_______/|__/|__/      |__/  |__/ \_______/   \___/  |__/  |__/ \______/ |__/  |__/   \___/   \_______/|__/      
+""")
+        
+         print('\033[91m\033[1m[+]plzz wait  installing is done[+]')
+         print('\033[91m\033[1m[+]installing.....')
+         print('\033[91m\033[1m[+]installing....')
+         os.system("pkg update -y")
+         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/Hax4us/Nethunter-In-Termux.git")
+         os.system("cd /data/data/com.termux/files/home && cd Nethunter-In-Termux && chmod +x kalinethunter")
+         os.system("cd /data/data/com.termux/files/home")
+         print("#######nethunter installed successfully#####")
+         install()
+         load()
 animation()
 install()
 load()
