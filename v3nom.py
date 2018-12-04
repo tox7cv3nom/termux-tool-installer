@@ -13,9 +13,9 @@ def animation():
 |__/|__/  |__/|_______/    \___/   \_______/|__/|__/ \_______/|__/      
                                                                         
                                      
-                                      ****automate modified tool installer******
-                                         ~greetz to:-Luc!f@r,rooting-tom,blackc0bra,mr.proton,mr.m4d 
-                                                and all indian hackers                                                        
+                                     ******automate modified tool installer******
+                                      ~greetz to:-Luc!f@r,rooting-tom,blackc0bra,mr.proton,mr.m4d,4rsh dork 
+                                               and all indian hackers                                                        
 """)
  
 def install():
