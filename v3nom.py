@@ -14,6 +14,7 @@ def animation():
                                                                         
                                      
                                      ******automate modified tool installer******
+                                     ####made with <3 by toxic v3nom#####
                                       ~greetz to:-Luc!f@r,rooting-tom,blackc0bra,mr.proton,mr.m4d,4r5h d0rk 
                                                and all indian hackers                                                       
 """)
