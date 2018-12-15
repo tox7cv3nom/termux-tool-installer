@@ -19,7 +19,7 @@ def animation():
 """)
  
 def install():
-  print '#####thanx for using my tool######'
+  print ('#####thanx for using my tool######')
   print 'please select one tool'
   print '1.bingo  ~dork exploiter'
   print '2.beelogger ~python keylogger'
